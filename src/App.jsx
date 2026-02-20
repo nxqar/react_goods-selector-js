@@ -44,6 +44,7 @@ export const App = () => {
 
             return (
               <tr
+                key={item}
                 data-cy="Good"
                 className={isSelected ? 'has-background-success-light' : ''}
               >
